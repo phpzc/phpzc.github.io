@@ -103,6 +103,4 @@ theme: aurora
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  - type: git
-    repo: git@github.com:phpzc/phpzc.github.io.git
-    branch: master
+
