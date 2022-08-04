@@ -104,6 +104,5 @@ theme: aurora
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   - type: git
-    repo: https://github.com/phpzc/phpzc.github.io.git
+    repo: git@github.com:phpzc/phpzc.github.io.git
     branch: master
-    message: [Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}]
