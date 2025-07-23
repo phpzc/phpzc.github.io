@@ -1,5 +1,5 @@
 import { defineUserConfig } from "vuepress";
-
+import { commentPlugin } from '@vuepress/plugin-comment'
 import theme from "./theme.js";
 
 export default defineUserConfig({
@@ -11,6 +11,17 @@ export default defineUserConfig({
 
   theme,
 
+  plugins: [
+    commentPlugin({
+      provider: 'Giscus',
+      // 其他选项
+      repo:"phpzc/mygitpage-giscus",
+      repoId:"R_kgDOPRIUwA",
+      category:"General",
+      categoryId:"DIC_kwDOPRIUwM4CtTFH",
+
+    }),
+  ],
   // 和 PWA 一起启用
   // shouldPrefetch: false,
 });

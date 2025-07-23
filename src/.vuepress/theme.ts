@@ -3,6 +3,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
+
 export default hopeTheme({
   hostname: "https://phpzc.github.io",
 
@@ -13,7 +14,7 @@ export default hopeTheme({
 
   logo: "/imgs/logo_bg.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "phpzc/phpzc.github.io",
 
   docsDir: "src",
 
@@ -151,6 +152,9 @@ export default hopeTheme({
     icon: {
       prefix: "fa6-solid:",
     },
+
+    photoSwipe: true,
+
 
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {

@@ -10,35 +10,16 @@ heroFullScreen: true
 tagline: 
 projects:
   - icon: folder-open
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
+    name: WebBug
+    desc: 项目管理系统 (基于ThinkPHP)
+    link: https://github.com/phpzc/WebBug
 
   - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+    name: VuePress Theme Hope
+    desc: 具有强大功能的 vuepress 主题 博客文档系统
+    link: https://theme-hope.vuejs.press/zh/
 
-  - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
 
-  - icon: newspaper
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
-
-  - icon: user-group
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
-
-  - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
-
-footer: 基于VuePress Theme Hope的个人博客
+footer: 基于VuePress Theme Hope的个人博客 备案信息 <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备14007760号-3</a>
 ---
 
