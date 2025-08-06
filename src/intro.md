@@ -1,6 +1,6 @@
 ---
 icon: circle-info
-cover: /imgs/gugong.jpg
+cover: https://oss.phpzc.net/Public/gugong.jpg
 ---
 
 # 关于我

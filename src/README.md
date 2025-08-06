@@ -1,7 +1,7 @@
 ---
 home: true
 layout: BlogHome
-bgImage: /imgs/gugong.jpg
+bgImage: https://oss.phpzc.net/Public/gugong.jpg
 icon: house
 title: 博客
 heroImage: /imgs/logo.png
